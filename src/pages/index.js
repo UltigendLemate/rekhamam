@@ -49,7 +49,7 @@ export default function Home() {
 
       </nav>
 
-      <main className='font-molengo w-full   relative'>
+      <main className='font-molengo w-full pb-7  relative'>
         <div className={`grid md:grid-cols-7 md:mt-16 ${hamburger?"":"mt-16"} `}>
 
         {/* <div className='w-full h-full p-6 md:col-span-3 -mb-16 sm:-mb-44 md:p-20 '>
@@ -87,9 +87,11 @@ export default function Home() {
         </div>
 
 
-        <div className='flex flex-col p-6 md:p-20 md:col-span-4  justify-center items-center text-xl font-kanit'>
-          <h1 className='text-3xl md:text-4xl'>Ja Aish Kar, Tera guru dekh lega baaki. Lorem ipsum, dolor sit amet consectetur ana?</h1>
-          <h3 className='font-molengo py-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ut alias, eveniet odio, perspiciatis aspernatur dolores dictodi aperiam et, corporis ducimus. In, quaerat? Ab soluta autem, natus ullam dignissimos molestiae saepe expedita deserunt dolorem totam neque quam sed asperiores officia harum eius recusandae alias. <br/><br/>Quam corporis vel commodi quo! deserunt dolorem totam neque quam sed asperiores officia harum eius recusandae alias. Quam corporis vel commodi l commodi quo! deserunt dolorem totam neque quam sed asperiores officia harum eius recusandae alias. Quam corpor</h3>
+        <div className='flex flex-col p-6 md:p-20 md:col-span-4  justify-center  text-xl font-kanit'>
+          <h1 className='text-3xl md:text-4xl'>जा ऐश कर। तेरा गुरु देख लेगा सब</h1>
+          <h3 className='font-molengo py-6 pl-6'>As a teacher, I always strive to create a positive and engaging learning environment for my students. It is my passion to teach and guide my students towards academic success.</h3>
+          
+          <h3 className='font-molengo pl-12'>Apart from being a teacher, my family is my top priority. I am a loving wife, sister, and mother who always makes sure that my family is happy and well taken care of. Their happiness means everything to me, and I always try to be there for them in every way possible.</h3>
         
 
         </div>
@@ -98,12 +100,9 @@ export default function Home() {
         </div>
 
 
-
-
-
       </main>
 
-      <div className='h-screen'></div>
+
 
      
 

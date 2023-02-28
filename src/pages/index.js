@@ -24,9 +24,9 @@ export default function Home() {
         <div className='md:block hidden'>
           <ul className='flex space-x-8 '>
             <li className='cursor-pointer'>About Me</li>
-            <li className='cursor-pointer'>Family Lady</li>
-            <li className='cursor-pointer'>Teacher</li>
-            <li className='cursor-pointer'>Moments</li>
+            <li className='cursor-pointer'>Journey</li>
+            <li className='cursor-pointer'>Family</li>
+            <li className='cursor-pointer'>My Album</li>
 
 
 
@@ -36,10 +36,10 @@ export default function Home() {
           <div onClick={() => sethamburger((prev) => { return !prev })} className="cursor-pointer text-2xl p-5">{hamburger ? <AiOutlineMenu /> : <AiOutlineClose />}</div>
 
           <ul className={`fixed tracking-wider top-16 z-20 right-0 space-y-14 bg-white p-14 ${hamburger ? "hidden" : ""}`}>
-            <li className='cursor-pointer'>About Me</li>
-            <li className='cursor-pointer'>Family Lady</li>
-            <li className='cursor-pointer'>Teacher</li>
-            <li className='cursor-pointer'>Moments</li>
+          <li className='cursor-pointer'>About Me</li>
+            <li className='cursor-pointer'>Journey</li>
+            <li className='cursor-pointer'>Family</li>
+            <li className='cursor-pointer'>My Album</li>
 
 
 
@@ -52,27 +52,6 @@ export default function Home() {
       <main className='font-molengo w-full pb-7  relative'>
         <div className={`grid md:grid-cols-7 md:mt-16 ${hamburger?"":"mt-16"} `}>
 
-        {/* <div className='w-full h-full p-6 md:col-span-3 -mb-16 sm:-mb-44 md:p-20 '>
-          <div className='w-1/2 relative left-5 z-10'>
-            <Image src={guruji} alt="guruji" className='aspect-square rounded-full object-cover '/>
-          </div>
-          <div className='w-1/2 relative left-[45%] bottom-20 sm:bottom-52 md:bottom-1/3 md:left-[60%]  z-20  '>
-            <Image src={rekha_main} alt="rekha mam in goggles" className='aspect-square rounded-full object-cover ' />
-          </div>
-
-        </div> */}
-        {/* <div className='absolute h-auto right-[44%] sm:right-[35%] 2xl:top-[40%] md:rotate-[-55deg] md:right-[28%] sm:top-[35%] sm:scale-125  top-[60%]  lg:scale-[140%] 2xl:scale-[155%] '>
-        <div className='relative right-[-85%] md:rotate-[55deg] '>
-                <Image src={guruji} alt="" className='h-36 w-auto aspect-square rounded-full object-cover' priority />
-              </div>
-              <div className='relative  md:rotate-[55deg]'>
-                <Image src={rekha_main} alt="" className='h-40 w-auto aspect-square rounded-full object-cover' priority />
-              </div>
-              <div className='absolute right-[-90%] bottom-[2%]  md:right-[-105%] md:rotate-[55deg]'>
-                <Image src={rekha_main} alt="" className='h-32 w-auto aspect-square rounded-full object-cover' priority />
-              </div>
-
-              </div> */}
 
 
         <div className='w-full h-full p-6 md:col-span-3 -mb-24 sm:-mb-44 md:p-20 '>
@@ -87,11 +66,11 @@ export default function Home() {
         </div>
 
 
-        <div className='flex flex-col p-6 md:p-20 md:col-span-4  justify-center  text-xl font-kanit'>
+        <div className='flex flex-col p-6 md:p-20 md:col-span-4  justify-center  text-xl gap-5 font-kanit'>
           <h1 className='text-3xl md:text-4xl'>जा ऐश कर। तेरा गुरु देख लेगा सब</h1>
-          <h3 className='font-molengo py-6 pl-6'>As a teacher, I always strive to create a positive and engaging learning environment for my students. It is my passion to teach and guide my students towards academic success.</h3>
+          <h3 className='font-molengo sm:py-6 p-6  bg-white text-justify rounded-3xl rounded-tl-none shadow-lg border-green-300 border-4 border-double md:ml-6'>As a teacher, I always strive to create a positive and engaging learning environment for my students. It is my passion to teach and guide my students towards academic success.</h3>
           
-          <h3 className='font-molengo pl-12'>Apart from being a teacher, my family is my top priority. I am a loving wife, sister, and mother who always makes sure that my family is happy and well taken care of. Their happiness means everything to me, and I always try to be there for them in every way possible.</h3>
+          <h3 className='font-molengo sm:py-6 p-6  bg-white text-justify rounded-3xl rounded-tr-none shadow-lg border-indigo-300 border-4 border-double md:ml-12'>Apart from being a teacher, my family is my top priority. I am a loving wife, sister, and mother who always makes sure that my family is happy and well taken care of. Their happiness means everything to me, and I always try to be there for them in every way possible.</h3>
         
 
         </div>

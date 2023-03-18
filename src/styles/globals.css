@@ -20,6 +20,10 @@ box-shadow: 0px -5px 27px 5px rgba(138, 148, 3, 0.488);
 
 }
 
+html{
+    @apply bg-[#510000];
+}
+
 
 /* #main{
     background: url('/flowers.webp') no-repeat center center fixed;

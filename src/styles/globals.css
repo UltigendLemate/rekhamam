@@ -2,7 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+.heading{
+    
+    background: linear-gradient(180deg,#bba473 22%,#cfc09f 26%,#cfc09f 27%,#ffecb3 40%,#a2710f 78%)!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent;
+    /* color: #fff; */
+    /* position: relative; */
+    
 
+}
+
+.shadowOnImg{
+    -webkit-box-shadow: 0px -5px 27px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -5px 27px 5px rgba(0,0,0,0.75);
+box-shadow: 0px -5px 27px 5px rgba(138, 148, 3, 0.488);
+
+}
 
 
 /* #main{

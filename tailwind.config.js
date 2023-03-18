@@ -15,6 +15,7 @@ module.exports = {
       fontFamily: {
         'kanit': ['Kanit', 'sans-serif'],
         'molengo': ['Molengo', 'sans-serif'],
+        'tangerine': ['Tangerine', 'cursive'],
         
       }
     },

@@ -9,7 +9,7 @@ import rekha_main from "../../public/rekha_main.jpg";
 
 export default function Home() {
   const [hamburger, sethamburger] = useState(false);
-  const [voice, setvoice] = useState(true);
+  const [voice, setvoice] = useState(false);
   const aud = useRef(null);
 
 

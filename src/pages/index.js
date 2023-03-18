@@ -6,6 +6,7 @@ import { useState,useRef,useLayoutEffect ,useEffect} from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import guruji from "../../public/guruji.jpg";
 import rekha_main from "../../public/rekha_main.jpg";
+import scroll from "../../public/scroll.png";
 
 export default function Home() {
   const [hamburger, sethamburger] = useState(false);
@@ -164,7 +165,7 @@ Your browser does not support the audio element.
 
           </div>
 
-          <img src="/scroll.png"  alt="scroll" className=" object-fill  w-[90vw] h-[90vh]" />
+          <Image src={scroll}  alt="scroll" className=" object-fill  w-[90vw] h-[90vh]" />
         </div>
 
 

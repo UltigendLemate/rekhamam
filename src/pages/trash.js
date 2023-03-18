@@ -28,7 +28,11 @@ export default function Home() {
             <li className='cursor-pointer'>Family</li>
             <li className='cursor-pointer'>My Album</li>
 
-
+      {/* <div className=' gap-y-5 hidden xl:grid pb-5 lg:grid-cols-3 lg:px-28 gap-x-6 -mt-5 '>
+          <div className='heading text-center  text-2xl  p-2 w-[90%] lg:w-full mx-auto border-2 border-red-200 lg:border-yellow-600 lg:font-semibold rounded-lg '>My Family and Friends</div>
+          <div className='heading text-center  text-2xl  p-2 w-[90%] lg:w-full mx-auto border-2 border-red-200 lg:border-yellow-600 lg:font-semibold rounded-lg '>My Journey</div>
+          <div className='heading text-center  text-2xl  p-2 w-[90%] lg:w-full mx-auto border-2 border-red-200 lg:border-yellow-600 lg:font-semibold rounded-lg '>Photo Album</div>
+        </div> */}
 
           </ul>
         </div>

@@ -1,14 +1,31 @@
 import Head from "next/head";
 import Image from "next/image";
-import { useState } from "react";
+import { useState,useRef,useLayoutEffect ,useEffect} from "react";
+
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import guruji from "../../public/guruji.jpg";
 import rekha_main from "../../public/rekha_main.jpg";
 
 export default function Home() {
-  const [hamburger, sethamburger] = useState(true);
-  const [voice, setvoice] = useState(false);
+  const [hamburger, sethamburger] = useState(false);
+  const [voice, setvoice] = useState(true);
+  const aud = useRef(null);
+
+
+  useLayoutEffect(() => {
+    if (voice) {
+      aud.current.play();
+    } 
+    else if (!voice) {
+      aud.current.pause();
+    }
+    console.log(voice)
+
+  
+
+  }, [voice])
+  
 
   return (
     <div className="bg-[#510000] ">
@@ -18,6 +35,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
+      {/* <iframe src="./silence.mp3" allow="autoplay" id="audio" className="fixed top-0 -left-96"></iframe> */}
+      <audio controls  autoplay loop  className="fixed -top-20 -left-0" ref={aud}>
+
+  <source src="./test.mp3" type="audio/mp3"/>
+Your browser does not support the audio element.
+  </audio>
 
       {/* main content div  */}
       <div className=" bg-[#510000] w-full h-full xl:h-[80vh] lg:flex lg:px-20">

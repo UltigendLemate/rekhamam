@@ -8,7 +8,7 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Molengo&family=Tangerine&display=swap" rel="stylesheet" />
       </Head>
-      <body>
+      <body className='bg-[#510000]'>
         <Main />
         <NextScript />
       </body>

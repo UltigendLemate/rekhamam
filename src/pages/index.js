@@ -36,7 +36,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-      {/* <iframe src="./silence.mp3" allow="autoplay" id="audio" className="fixed top-0 -left-96"></iframe> */}
+
       <audio controls  autoplay loop  className="fixed -top-20 -left-0" ref={aud}>
 
   <source src="./test.mp3" type="audio/mp3"/>

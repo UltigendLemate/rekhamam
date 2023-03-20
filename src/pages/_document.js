@@ -1,6 +1,8 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
+
 export default function Document() {
+
   return (
     <Html lang="en">
       <Head>
@@ -9,7 +11,10 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Molengo&family=Tangerine&display=swap" rel="stylesheet" />
       </Head>
       <body className='bg-[#510000]'>
+        
+      
         <Main />
+         
         <NextScript />
       </body>
     </Html>

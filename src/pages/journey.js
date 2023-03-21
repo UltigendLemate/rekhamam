@@ -1,36 +1,64 @@
-import React from 'react'
-import Image from 'next/image'
-export default function Journey () {
+import React from "react";
+import Image from "next/image";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import { journeyMilestones } from "@/utility/data";
+
+// import required modules
+import { Pagination, Autoplay } from "swiper";
+
+export default function Journey() {
   return (
-    <div className=''>
-        <h2 className='heading text-5xl font-bold text-center py-10 pb-5 font-kanit'>My Journey</h2>
-        <div className='w-full flex py-5 flex-col items-center'>
-        <div className='relative w-[80%]  h-56'>
-            <Image src={"/family.jpeg"} alt='journey1' fill={true} className=' object-cover' />
+    <div className="">
+      <h2 className="heading text-7xl tracking-wider md:text-8xl font-bold text-center py-10 pb-5 font-tangerine">
+        My Journey...
+      </h2>
+      <div className="grid lg:grid-cols-3 lg:gap-10 lg:px-10">
+        {journeyMilestones.map((milestone, index) => {
+          return (
+            <div key={index} className="w-full flex py-5 lg:shadow-lg lg:shadow-yellow-700/40 flex-col items-center relative">
+          <Swiper
+            pagination={true}
+            loop={true}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            modules={[Pagination, Autoplay]}
+            className=" w-[80vw] lg:w-[85%] lg:h-72  h-56 "
+          >
+            {milestone.img.map((img, index) => {
+              return(
+                <SwiperSlide key={index} className="relative">
+              <Image
+                src={`/journey/${img}`}
+                alt="journey image"
+                fill={true}
+                className=" object-cover"
+              />
+            </SwiperSlide>
+              )
+            }
+            )}
+          </Swiper>
+          <div className="relative "></div>
+          <h3 className="heading text-3xl py-4 text-left font-kanit w-[80%] tracking-widest font-bold">
+            {milestone.year}
+          </h3>
+          <p className="text-white w-[80%] font-kanit">
+            {milestone.text}
+          </p>
         </div>
-        <h3 className='heading text-3xl py-4 text-left font-kanit w-[80%] tracking-widest font-bold'>1945-1947</h3>
-        <p className='text-white w-[80%] font-kanit'>Born in Kharindam District of Pre Independence Pakistan, Raised by Shrimati Trikhta Rani & Shri Harikhand Singh. Young Rekha spent her childhood in the slums of Khera. Amidst struggle</p>
+          )
+        })}
+        
 
-        </div>
-        <div className='w-full flex py-5 flex-col items-center'>
-        <div className='relative w-[80%]  h-56'>
-            <Image src={"/marriage.jpeg"} alt='journey1' fill={true} className=' object-cover' />
-        </div>
-        <h3 className='heading text-3xl py-4 text-left font-kanit w-[80%] tracking-widest font-bold'>1963</h3>
-        <p className='text-white w-[80%] font-kanit'>Her young life made her fall into love with Mr Ranjan Arora. At a young age of 20, she was married on the farms of Chattisgarh. Her life went a round about after marriage. Her responsibilties expinentially increased</p>
-
-        </div>
-        <div className='w-full flex py-5 flex-col items-center'>
-        <div className='relative w-[80%]  h-56'>
-            <Image src={"/family.jpeg"} alt='journey1' fill={true} className=' object-cover' />
-        </div>
-        <h3 className='heading text-3xl py-4 text-left font-kanit w-[80%] tracking-widest font-bold'>1973 - 1975</h3>
-        <p className='text-white w-[80%] font-kanit'>Mrs. Rekha took on the duty of educating unpriveleged students in an NGO. Her pot of blessings were filled everyday by cute smiles of the future generation. That brought her immense pleasure and satisfaction in her life. She used to say &#34;I love smiles&#34;</p>
-
-        </div>
-
-
+      </div>
+      {/* image size 300x224 or 500 x 375 */}
     </div>
-  )
+  );
 }
-

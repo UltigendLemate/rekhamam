@@ -3,12 +3,17 @@ import scroll from "../../public/scroll.png";
 import Image from "next/image";
 import { useState,useRef,useLayoutEffect ,useEffect} from "react";
 
-
+import Link from 'next/link';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 export default function App({ Component, pageProps }) {
   const [hamburger, sethamburger] = useState(false);
   const [voice, setvoice] = useState(false);
   const aud = useRef(null);
+
+  useEffect(() => {
+
+   sethamburger(false);
+  }, [Component, pageProps])
 
 
   useEffect(() => {
@@ -32,7 +37,7 @@ Your browser does not support the audio element.
   <Component {...pageProps} />
   {/* menu button on bl  */}
   <div
-        className="bg-white h-10 lg:h-14 lg:w-14 w-10  rounded-full p-2 fixed bottom-4 left-4 text-2xl lg:text-4xl cursor-pointer"
+        className="bg-white h-10 lg:h-14 lg:w-14 w-10 z-50  rounded-full p-2 fixed bottom-4 left-4 text-2xl lg:text-4xl cursor-pointer"
         onClick={() =>
           sethamburger((prev) => {
             return !prev;
@@ -44,7 +49,7 @@ Your browser does not support the audio element.
 
       {/* menu button on br  */}
       <div
-        className="bg-white h-10 lg:h-14 lg:w-14 w-10  rounded-full p-2 fixed bottom-4 right-4 cursor-pointer"
+        className="bg-white h-10 lg:h-14 lg:w-14 w-10 z-50  rounded-full p-2 fixed bottom-4 right-4 cursor-pointer"
         onClick={() =>
           setvoice((prev) => {
             return !prev;
@@ -69,10 +74,10 @@ Your browser does not support the audio element.
           </div>
 
           <div className=" max-w-[400px] h-[60%] absolute top-44 left-[calc(50%-90px)]  grid justify-around">
-            <a href=" " className="text-white underline text-xl capitalize text-center">About Me</a>
-            <a href="" className="text-white underline text-xl capitalize text-center">My Journey</a>
-            <a href="" className="text-white underline text-xl capitalize text-center">Adorable Memories</a>
-            <a href="" className="text-white underline text-xl capitalize text-center">My Family</a>
+            <Link legacyBehavior  href="/"><a href=" " className="text-white underline text-xl capitalize text-center">About Me</a></Link>
+            <Link legacyBehavior  href="/journey"><a href="" className="text-white underline text-xl capitalize text-center">My Journey</a></Link>
+            <Link legacyBehavior  href="/"><a href="" className="text-white underline text-xl capitalize text-center">Adorable Memories</a></Link>
+            <Link legacyBehavior  href="/"><a href="" className="text-white underline text-xl capitalize text-center">My Family</a></Link>
 
           </div>
 

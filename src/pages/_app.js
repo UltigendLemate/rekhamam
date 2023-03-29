@@ -76,7 +76,7 @@ Your browser does not support the audio element.
           <div className=" max-w-[400px] h-[60%] absolute top-44 left-[calc(50%-90px)]  grid justify-around">
             <Link legacyBehavior  href="/"><a href=" " className="text-white underline text-xl capitalize text-center">About Me</a></Link>
             <Link legacyBehavior  href="/journey"><a href="" className="text-white underline text-xl capitalize text-center">My Journey</a></Link>
-            <Link legacyBehavior  href="/"><a href="" className="text-white underline text-xl capitalize text-center">Adorable Memories</a></Link>
+            <Link legacyBehavior  href="/memories"><a href="" className="text-white underline text-xl capitalize text-center">Adorable Memories</a></Link>
             <Link legacyBehavior  href="/"><a href="" className="text-white underline text-xl capitalize text-center">My Family</a></Link>
 
           </div>

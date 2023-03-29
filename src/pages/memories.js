@@ -13,7 +13,6 @@ const memories = () => {
         <img src="/memories/1.jpg" className='col-span-2' alt="" />
         <img src="/memories/6.jpg" className='col-span-1 object-cover h-full' alt="" />
         <img src="/memories/2.jpg" className='col-span-1' alt="" />
-        {/* <iframe src="/memories/7.mp4" frameborder="0"  height="100%" loading='lazy'  allowfullscreen className='col-span-2 h-full '></iframe> */}
         <img src="/memories/5.jpg" className='col-span-1 row-span-2' alt="" />
         <img src="/memories/3.jpg" className='col-span-1' alt="" />
         <img src="/memories/4.jpg" className='col-span-1' alt="" />

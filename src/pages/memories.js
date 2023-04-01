@@ -16,7 +16,7 @@ const memories = () => {
         <img src="/memories/5.jpg" className='col-span-1 row-span-2 md:object-cover ' alt="" />
         <img src="/memories/3.jpg" className='col-span-1' alt="" />
         <img src="/memories/4.jpg" className='col-span-1 md:object-cover md:col-span-2' alt="" />
-        <video controls className='col-span-2 md:col-span-1'>
+        <video controls className='col-span-2 md:col-span-1 d'>
         <source src="/memories/7.mp4" />
       </video>
         

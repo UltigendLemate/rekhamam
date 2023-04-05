@@ -63,7 +63,7 @@ Your browser does not support the audio element.
         )}
       </div>
 
-      {hamburger&& <div className="Navm  z-50 backdrop-blur-md h-full w-full fixed top-0 left-0 py-10">
+      {hamburger&& <div className="Navm  z-50 bg-white h-full w-full fixed top-0 left-0 py-10">
         <div className="max-w-[500px] h-[90%] grid relative sm:absolute sm:left-[calc(50%-250px)] items-center font-bold justify-center">
           <div className="text-black bg-white rounded-full p-1 font-extrabold text-2xl absolute top-[6rem] right-[5.5rem] lg:right-[6rem] cursor-pointer" onClick={() =>
           sethamburger((prev) => {

@@ -1,11 +1,11 @@
 export const journeyMilestones = [
     {
-        img : ["1.jpg", "family.jpeg"],
-        year : "1945-1947",
-        text : "Born in Kharindam District of Pre Independence Pakistan, Raised by Shrimati Trikhta Rani & Shri Harikhand Singh. Young Rekha spent her childhood in the slums of Khera. Amidst struggle"
+        img : ["sargodha.jpg", "sargodha1.jpg", "nani.jpg"],
+        year : "1947",
+        text : "Born in Sargodha District of Pre Independence Pakistan on 24th Feb 1947, Raised by Shrimati Veeran Wali & Ram Ji mal. Young Rekha spent her childhood in the slums of Undivided India. "
     },
     {
-        img : ["2.jpg", "marriage.jpeg"],
+        img : ["marriage.jpg", "map.png"],
         year : "1963",
         text : "Her young life made her fall into love with Mr Ranjan Arora. At a young age of 20, she was married on the farms of Chattisgarh. Her life went a round about after marriage. Her responsibilties expinentially increased"
     },

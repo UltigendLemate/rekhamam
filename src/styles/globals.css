@@ -42,3 +42,7 @@ html{
 
     /* padding:2rem; */
 }
+
+.para{
+    @apply bg-red-900/70 text-center text-white  text-[9px] mx-1 absolute bottom-1  px-1 py-px;
+}

@@ -63,7 +63,7 @@ Your browser does not support the audio element.
         )}
       </div>
 
-      {hamburger&& <div className="Navm  z-50 bg-white h-screen w-screen fixed top-0 left-0 py-10">
+       {hamburger &&<div className="Navm  z-50 bg-gradient-to-r from-red-900/90 to-orange-400/90 backdrop-blur-lg h-screen w-screen fixed top-0 left-0 py-10">
         <div className="max-w-[500px] h-[90%] grid relative sm:absolute sm:left-[calc(50%-250px)] items-center font-bold justify-center">
           <div className="text-black bg-white rounded-full p-1 font-extrabold text-2xl absolute top-[6rem] right-[5.5rem] lg:right-[6rem] cursor-pointer" onClick={() =>
           sethamburger((prev) => {
@@ -74,10 +74,10 @@ Your browser does not support the audio element.
           </div>
 
           <div className=" max-w-[400px] h-[60%] absolute top-44 left-[calc(50%-90px)]  grid justify-around">
-            <Link legacyBehavior  href="/"><a href=" " className="text-white underline text-xl capitalize text-center">About Me</a></Link>
-            <Link legacyBehavior  href="/journey"><a href="" className="text-white underline text-xl capitalize text-center">My Journey</a></Link>
-            <Link legacyBehavior  href="/memories"><a href="" className="text-white underline text-xl capitalize text-center">Adorable Memories</a></Link>
-            <Link legacyBehavior  href="/"><a href="" className="text-white underline text-xl capitalize text-center">My Family</a></Link>
+            <Link legacyBehavior  href="/"><a href=" " className="text-white  text-lg capitalize text-center">About Me</a></Link>
+            <Link legacyBehavior  href="/journey"><a href="" className="text-white  text-lg capitalize text-center">My Journey</a></Link>
+            <Link legacyBehavior  href="/family-and-friends"><a href="" className="text-white  text-lg capitalize text-center">My Family & Friends</a></Link>
+            <Link legacyBehavior  href="/memories"><a href="" className="text-white  text-lg capitalize text-center">Adorable Memories</a></Link>
 
           </div>
 

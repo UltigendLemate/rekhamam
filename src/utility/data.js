@@ -1,8 +1,8 @@
 export const journeyMilestones = [
     {
-        img : ["sargodha.jpg", "sargodha1.jpg", "nani.jpg"],
+        img : ["parents.jpg", "map.png"],
         year : "1947",
-        text : "Born in Sargodha District of Pre Independence Pakistan on 24th Feb 1947, Raised by Shrimati Veeran Wali & Ram Ji mal. Young Rekha spent her childhood in the slums of Undivided India. "
+        text : "Born in Sargodha District of Pre Independence Pakistan on 24th Feb 1947, Raised by Shrimati Veeran Wali & Ram Ji mal. She moved to Amritsar in August and eventually settled in Meerut."
     },
     {
         img : ["marriage.jpg", "map.png"],

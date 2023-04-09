@@ -29,7 +29,7 @@ export default function App({ Component, pageProps }) {
 
   }, [voice])
   return (<>
-  <audio controls  autoplay loop  className="fixed -top-20 -left-0" ref={aud}>
+  <audio controls  autoPlay loop  className="fixed -top-20 -left-0" ref={aud}>
 
 <source src="./test.mp3" type="audio/mp3"/>
 Your browser does not support the audio element.
@@ -73,7 +73,7 @@ Your browser does not support the audio element.
           <AiOutlineClose />
           </div>
 
-          <div className=" max-w-[400px] h-[60%] absolute top-44 left-[calc(50%-90px)]  grid justify-around">
+          <div className=" max-w-[400px] h-[60%] absolute top-44 left-[calc(50%-87px)]  grid justify-around">
             <Link legacyBehavior  href="/"><a href=" " className="text-white  text-lg capitalize text-center">About Me</a></Link>
             <Link legacyBehavior  href="/journey"><a href="" className="text-white  text-lg capitalize text-center">My Journey</a></Link>
             <Link legacyBehavior  href="/family-and-friends"><a href="" className="text-white  text-lg capitalize text-center">My Family & Friends</a></Link>
@@ -81,7 +81,7 @@ Your browser does not support the audio element.
 
           </div>
 
-          <Image src={scroll}  alt="scroll" className=" object-fill  w-[90vw] h-[90vh]" />
+          <Image src={scroll} priority={true}  alt="scroll" className=" object-fill  w-[90vw] h-[90vh]" />
         </div>
 
 

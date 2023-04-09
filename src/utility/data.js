@@ -21,3 +21,35 @@ export const journeyMilestones = [
     },
 
 ]
+
+
+
+export const audios = [
+    {
+        img : "rekha_main.jpg",
+        name : "Rekha Arora",
+        title : "My Dear Mother",
+        aud : "test.mp3"
+    },
+    {
+        img : "rekha_main.jpg",
+        name : "Rekha Arora",
+        title : "My Dear Mother",
+        aud : "test.mp3"
+    },
+    {
+        img : "rekha_main.jpg",
+        name : "Rekha Arora",
+        title : "My Dear Mother",
+        aud : "test.mp3"
+    },
+    {
+        img : "rekha_main.jpg",
+        name : "Rekha Arora",
+        title : "My Dear Mother",
+        aud : "test.mp3"
+    },
+    
+    
+
+]

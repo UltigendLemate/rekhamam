@@ -44,7 +44,7 @@ export default function Home() {
         </div>
 
         <div className="absolute top-[19rem] lg:static md:top-[calc(50vw-40px)]  lg:flex lg:flex-col lg:justify-center w-full md:text-xl md:w-[calc(100%-160px)] md:left-[80px] xl:w-[50%] xl:h-[100vh] xl:pr-7">
-          <h1 className=" text-4xl text-center font-bold font-molengo xl:text-7xl">
+          <h1 className=" text-4xl text-center font-bold font-molengo xl:text-6xl">
          <span className="heading">Join me on a journey</span> <span className="heading">through my memories.</span>
           </h1>
           {/* <h3 className="heading text-3xl text-center font-kanit pt-2 xl:text-4xl">
@@ -53,7 +53,7 @@ export default function Home() {
           <h4 className="text-white text-4xl  text-center font-tangerine pt-6 xl:text-5xl">
             Within the profound memory of hers
           </h4>
-          <p className="text-white text-base px-5 text-center pb-5 pt-3 xl:text-xl ">
+          <p className="text-white text-base px-5 text-center pb-5 pt-3 xl:text-xl font-molengo ">
           I am a person of strength and determination. As a teacher, I approach my students with firmness and compassion, guiding them towards their full potential. My love for my home state of Punjab drives me to make a positive impact on the lives of others.  I strive to leave a lasting legacy, inspiring others to carry on my work even after I am gone.
           </p>
 

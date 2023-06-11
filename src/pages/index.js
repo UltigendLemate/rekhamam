@@ -44,8 +44,8 @@ export default function Home() {
         </div>
 
         <div className="absolute top-[19rem] lg:static md:top-[calc(50vw-40px)]  lg:flex lg:flex-col lg:justify-center w-full md:text-xl md:w-[calc(100%-160px)] md:left-[80px] xl:w-[50%] xl:h-[100vh] xl:pr-7">
-          <h1 className=" text-4xl text-center font-bold font-molengo xl:text-6xl">
-         <span className="heading">Join me on a journey</span> <span className="heading">through my memories.</span>
+          <h1 className=" text-4xl text-center font-bold font-molengo xl:text-5xl xl:text-[58px]">
+         <span className="heading">Voyage into My Memories</span> 
           </h1>
           {/* <h3 className="heading text-3xl text-center font-kanit pt-2 xl:text-4xl">
             1943-2023
@@ -54,15 +54,9 @@ export default function Home() {
             Within the profound memory of hers
           </h4>
           <p className="text-white text-base px-5 text-center pb-5 pt-3 xl:text-xl font-molengo ">
-          I am a person of strength and determination. As a teacher, I approach my students with firmness and compassion, guiding them towards their full potential. My love for my home state of Punjab drives me to make a positive impact on the lives of others.  I strive to leave a lasting legacy, inspiring others to carry on my work even after I am gone.
+          
+I embody strength and determination as both a remarkable educator and a devoted matriarch. My profound kinship with loved ones and friends is deeply rooted, fostering robust bonds. Originating from the vibrant land of Punjab, I embrace my heritage and nourish unbreakable ties with my entire family. My legacy is one of love, togetherness, and inspiration, motivating others to carry it forward beyond my presence.
           </p>
-
-          {/* <div className='grid space-y-5 xl:hidden pb-5 lg:grid-cols-2 lg:px-6 lg:gap-x-6'>
-      
-          <div className='heading text-center  text-2xl  p-2 w-[90%] lg:w-full mx-auto border-2 border-red-200 lg:border-yellow-600 lg:font-semibold rounded-lg lg:col-span-2'>My Family and Friends</div>
-          <div className='heading text-center  text-2xl  p-2 w-[90%] lg:w-full mx-auto border-2 border-red-200 lg:border-yellow-600 lg:font-semibold rounded-lg '>My Journey</div>
-          <div className='heading text-center  text-2xl  p-2 w-[90%] lg:w-full mx-auto border-2 border-red-200 lg:border-yellow-600 lg:font-semibold rounded-lg '>Photo Album</div>
-        </div> */}
 
           <div className="w-full h-32 sm:hidden bg-transparent"></div>
         </div>

@@ -7,10 +7,15 @@
     background: linear-gradient(180deg,#bba473 22%,#cfc09f 26%,#cfc09f 27%,#ffecb3 40%,#a2710f 78%)!important;
     -webkit-background-clip: text!important;
     -webkit-text-fill-color: transparent;
+    font-weight: 900 !important;
     /* color: #fff; */
     /* position: relative; */
     
 
+}
+
+.dance{
+    font-family: 'Dancing Script', cursive;
 }
 
 .shadowOnImg{

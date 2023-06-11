@@ -63,7 +63,7 @@ Your browser does not support the audio element.
         )}
       </div>
 
-       {hamburger &&<div className="Navm  z-50 bg-gradient-to-r from-red-900/90 to-orange-400/90 backdrop-blur-lg h-screen w-screen fixed top-0 left-0 py-10">
+       {hamburger &&<div className="Navm  z-50 bg-gradient-to-r from-red-900/50 to-orange-400/50 backdrop-blur-lg h-screen w-screen fixed top-0 left-0 py-10">
         <div className="max-w-[500px] h-[90%] grid relative sm:absolute sm:left-[calc(50%-250px)] items-center font-bold justify-center">
           <div className="text-black bg-white rounded-full p-1 font-extrabold text-2xl absolute top-[6rem] right-[5.5rem] lg:right-[6rem] cursor-pointer" onClick={() =>
           sethamburger((prev) => {
@@ -73,11 +73,12 @@ Your browser does not support the audio element.
           <AiOutlineClose />
           </div>
 
-          <div className=" max-w-[400px] h-[60%] absolute top-44 left-[calc(50%-87px)]  grid justify-around">
-            <Link legacyBehavior  href="/"><a href=" " className="text-white  text-lg capitalize text-center">About Me</a></Link>
-            <Link legacyBehavior  href="/journey"><a href="" className="text-white  text-lg capitalize text-center">My Journey</a></Link>
-            <Link legacyBehavior  href="/family-and-friends"><a href="" className="text-white  text-lg capitalize text-center">My Family & Friends</a></Link>
-            <Link legacyBehavior  href="/memories"><a href="" className="text-white  text-lg capitalize text-center">Adorable Memories</a></Link>
+          <div className=" max-w-[400px] h-[60%] absolute top-32   left-[calc(50%-105px)] md:left-[calc(50%-149px)]  flex flex-col items-center justify-around">
+            <Link legacyBehavior  href="/" className='heading font-extrabold'><a href=" " className=" dance heading   font-extrabold tracking-wider text-2xl md:text-4xl md:text-[34px] capitalize text-center">About Me</a></Link>
+            <Link legacyBehavior  href="/journey" className='heading font-extrabold'><a href="" className=" dance heading   font-extrabold tracking-wider text-2xl md:text-4xl md:text-[34px] capitalize text-center">My Journey</a></Link>
+            <Link legacyBehavior  href="/family-and-friends" className='heading font-extrabold'><a href="" className=" dance heading   font-extrabold tracking-wider text-2xl md:text-4xl md:text-[34px] capitalize text-center">My Family & Friends</a></Link>
+
+            <Link legacyBehavior  href="/memories" className='heading font-extrabold'><a href="" className=" dance heading   font-extrabold tracking-wider text-2xl md:text-4xl md:text-[34px] capitalize text-center">Adorable Memories</a></Link>
 
           </div>
 

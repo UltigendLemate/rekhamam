@@ -33,7 +33,7 @@ const Family = () => {
           <h4 className="text-lg">{audio.title}</h4>
           <audio controls  loop className=" h-8 my-2 max-w-[220px] mx-auto">
             <source src={`/${audio.aud}`} type="audio/mp3" className="" />
-            Your browser does not support the audio element.
+            Your browser does not support the audio element..
           </audio>
         </div>
       </div>

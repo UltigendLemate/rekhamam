@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }) {
   return (<>
   <audio controls  autoPlay loop  className="fixed -top-20 -left-0" ref={aud}>
 
-<source src="./test.mp3" type="audio/mp3"/>
+<source src="./audio.mp3" type="audio/mp3"/>
 Your browser does not support the audio element.
 </audio>
   <Component {...pageProps} />

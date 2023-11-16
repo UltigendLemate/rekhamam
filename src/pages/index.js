@@ -5,7 +5,7 @@ import { useState,useRef,useLayoutEffect ,useEffect} from "react";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import guruji from "../../public/guruji.jpg";
-import rekha_main from "../../public/rekha_main.jpg";
+import rekha_main from "../../public/rekhamam.jpg";
 import scroll from "../../public/scroll.png";
 
 export default function Home() {
@@ -45,17 +45,27 @@ export default function Home() {
 
         <div className="absolute top-[19rem] lg:static md:top-[calc(50vw-40px)]  lg:flex lg:flex-col lg:justify-center w-full md:text-xl md:w-[calc(100%-160px)] md:left-[80px] xl:w-[50%] xl:h-[100vh] xl:pr-7">
           <h1 className=" text-4xl text-center font-bold font-molengo xl:text-5xl xl:text-[58px]">
-         <span className="heading">Voyage into My Memories</span> 
+         <span className="heading">मेरी यादों की यात्रा</span> 
           </h1>
           {/* <h3 className="heading text-3xl text-center font-kanit pt-2 xl:text-4xl">
             1943-2023
           </h3> */}
-          <h4 className="text-white text-4xl  text-center font-tangerine pt-6 xl:text-5xl">
+          {/* <h4 className="text-white text-4xl  text-center font-tangerine pt-6 xl:text-5xl">
             Within the profound memory of hers
-          </h4>
+          </h4> */}
           <p className="text-white text-base px-5 text-center pb-5 pt-3 xl:text-xl font-molengo ">
-          
-I embody strength and determination as both a remarkable educator and a devoted matriarch. My profound kinship with loved ones and friends is deeply rooted, fostering robust bonds. Originating from the vibrant land of Punjab, I embrace my heritage and nourish unbreakable ties with my entire family. My legacy is one of love, togetherness, and inspiration, motivating others to carry it forward beyond my presence.
+          मेरे प्यारे परिवार, निकट और प्यारे रिश्तेदारों,
+मैं यहां बैठी हूँ, और मैं तुम सबके साथ हूँ, तो तुम मेरी यादों को याद करो। मैं अब तुम्हारे साथ नहीं हूँ, लेकिन मेरा प्यार तुम्हारे साथ हमेशा रहेगा। जब तुम मेरी याद करो, तो तुम्हारे दिल में मेरे साथ गुजरे हुए प्यार और मोमेंट्स को याद रखो।
+मैं चाहती हूँ कि तुम मेरे सिखाए गए सबको जीवंत रखो और उनके अनुसरण करो - प्यार, क्षमा और दया के मूल्य को समझो। मैं चाहती हूँ कि आप याद रखें हमारे परिवार के साथ हुई हंसी, मुश्किल समयों में साथ होने वाला सहारा, और एक-दूसरे के साथ बिताये गए खुशी और प्यार भरे कई पल। <br/><br/>
+ये यादें हमें जोड़ती हैं, और मैं आशा करती हूँ कि ये आपको सुख और शक्ति देने में मदद करें। <br/>
+जीवन एक बहुत मूल्यवान उपहार है, और मैं तुम्हें सलाह देती हूँ कि तुम उसे पूरी तरह से जीओ, दूसरों से प्यार करो, और हर पल को एक मूल्यवान अवसर के रूप में ग्रहण करो। याद रखो कि मैं तुम्हारी ऊपर से नजर रख रही हूँ, और मैं हमेशा तुम्हारी संरक्षिका देवी हूँ, तुम्हें ऊपर से मार्गदर्शन और सुरक्षा प्रदान कर रही हूँ।<br/><br/>
+मेरे बारे में दुःख नहीं करें, बल्कि मेरे जीवन में हमारे साझे किए गए प्यार और जीवन की प्राप्तियों का जश्न मनाएं। मैं अब शांति में हूँ, और मैं चाहती हूँ कि तुम सभी भी ऐसे ही शांति में रहो। एक-दूसरे को गले लगाओ, एक-दूसरे का साथ दो, और हमारे द्वारा बनाए गए रिश्तों में सुख ढूंढ़ो।<br/><br/>
+मेरी ख्वाहिश है कि तुम एक-दूसरे के साथ रहो, एक-दूसरे के साथ कठिनाइयों को सहने में मदद करो और खुशियों के मोमेंट्स का आनंद उठाओ।<br/>
+मेरी यादों को जीवंत रखने के लिए मेरे साथ बिताए गए समय की कहानियों को साझा करो। तुम मेरी शिक्षाओं और प्यार को याद रखो और उन्हें अपने जीवन में आगे बढ़ने के रूप में उपयोग करो।<br/><br/>
+गुरू जी की इच्छा के अनुसार, मैं इस सुंदर पृथ्वी से दूर चली गई और एक और जीवन चक्र में प्रवेश किया, और मुझे यह इच्छा है कि मैं जल्द ही फिर से वापस आऊं और वह किसी भी रूप में, जैसे वह निर्णय लेते हैं, और मैं तुम सभी को अब भी याद करती रहूं।
+तुम मेरे लिए कितने प्यारे हो, और मैं हमेशा तुम्हारे साथ हूँ।<br/><br/>
+<span className="font-bold mt-3 text-xl">रेखा अरोड़ा…</span>
+
           </p>
 
           <div className="w-full h-32 sm:hidden bg-transparent"></div>

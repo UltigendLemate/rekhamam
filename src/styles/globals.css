@@ -8,6 +8,7 @@
     -webkit-background-clip: text!important;
     -webkit-text-fill-color: transparent;
     font-weight: 900 !important;
+    @apply py-2
     /* color: #fff; */
     /* position: relative; */
     
